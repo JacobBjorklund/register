@@ -1,7 +1,7 @@
 import style from '../styles/home.module.css'
 import { Inter } from 'next/font/google'
-import register from '@/components/register/register'
-import login from '@/components/login/login'
+import register from '@/pages/register'
+import login from '@/pages/login'
 import { log } from 'console'
 const inter = Inter({ subsets: ['latin'] })
 
